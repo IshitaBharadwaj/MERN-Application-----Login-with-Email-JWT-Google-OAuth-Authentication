@@ -16,7 +16,7 @@ app.use(cors());
 app.use('/posts', postRoutes);
 app.use('/user', userRoutes);
 
-const CONNECTION_URL = 'mongodb+srv://ishitabharadwaj:iamishita123@cluster0.6bbcj.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
+const CONNECTION_URL = <!--- Give you MongoDB URL -->;
 const PORT = process.env.PORT|| 5000;
 
 //const PORT = 3000
